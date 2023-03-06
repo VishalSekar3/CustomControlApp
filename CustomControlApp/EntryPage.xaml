@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Grid xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CustomControlApp.EntryPage">
+
+	<Grid>
+		<Entry Grid.Row="0" Grid.Column="0" Placeholder="Enter Title" x:Name="TitleEntry" ></Entry>
+		<Editor Grid.Row="1" Grid.Column="0" Placeholder="Enter Description" x:Name="DescriptionEntry"></Editor>
+		<Button Text="Post" Grid.Row="3" Grid.Column="2" Command="{Binding PostCommand}"></Button>
+	</Grid>
+</Grid>
